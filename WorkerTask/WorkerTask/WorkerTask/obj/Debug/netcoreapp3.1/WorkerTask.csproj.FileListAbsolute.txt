@@ -1,0 +1,13 @@
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/bin/Debug/netcoreapp3.1/WorkerTask.deps.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/bin/Debug/netcoreapp3.1/WorkerTask.runtimeconfig.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/bin/Debug/netcoreapp3.1/WorkerTask.runtimeconfig.dev.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/bin/Debug/netcoreapp3.1/WorkerTask.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/bin/Debug/netcoreapp3.1/WorkerTask.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.csproj.AssemblyReference.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.AssemblyInfoInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.AssemblyInfo.cs
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.csproj.CoreCompileInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPStringAndArrayClasses/WorkerTask/WorkerTask/WorkerTask/obj/Debug/netcoreapp3.1/WorkerTask.genruntimeconfig.cache
