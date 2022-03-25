@@ -1,5 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HometasksCsOOPStringAndArrayClasses" expanded="True">
+            <Node name="HometasksCsOOPStringAndArrayClasses" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>HometasksCsOOPStringAndArrayClasses/HometasksCsOOPStringAndArrayClasses.csproj</String>

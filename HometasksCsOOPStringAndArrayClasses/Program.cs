@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace HometasksCsOOPStringAndArrayClasses
 {
@@ -33,6 +34,34 @@ namespace HometasksCsOOPStringAndArrayClasses
             //{
             //    Console.WriteLine(item);
             //}
+            #endregion
+
+            #region Optimal solutions-Addition
+            //string word = "  hello,  world    salam    ";
+
+            //MakeSentence(ref word);
+            //Console.WriteLine(word);
+
+            //string sentence = "  Hello  world  ";
+
+            //Console.WriteLine("Fullname daxil edin:");
+            //string fullname = Console.ReadLine();
+
+            //Console.WriteLine(CheckFullName(fullname));
+
+            //Console.WriteLine(FindFirstWord(sentence));
+
+            //int[] nums = { 1, 2, 3, 4 };
+
+            //AddInt(ref nums, 55);
+
+            //Console.WriteLine("Nums:");
+            //foreach (var item in nums)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
             #endregion
         }
 
@@ -145,19 +174,17 @@ namespace HometasksCsOOPStringAndArrayClasses
         //Hometask4: Verilmis string deyerinin icerisinde 2 soz olmasini ve her bir sozun boyuk herfle baslamasini yoxlayan metod
         static bool TwoPascalWords(string str)
         {
-            string newStr = "";
             int count = 0;
-            int count2 = 0;
+            string newStr = "";
+            string[] arrStr;
             str = str.Trim();
             for (int i = 0; i < str.Length - 1; i++)
             {
-                if (char.IsLetter(str[i]))
+                if (str[i] != ' ')
                 {
                     newStr += str[i];
-
                 }
-
-                else if (!char.IsLetter(str[i]) && !char.IsLetter(str[i + 1]))
+                else if (str[i] == ' ' && str[i + 1] == ' ')
                 {
                     continue;
                 }
@@ -166,28 +193,17 @@ namespace HometasksCsOOPStringAndArrayClasses
                     count++;
                     newStr += " ";
                 }
- 
-            }
-
-            string[] arrStr = newStr.Split(" ");
-
-            for (int i = 0; i < arrStr.Length; i++)
-            {
-                if (char.IsUpper(arrStr[i][0]))
+                if (count == 2)
                 {
-                    count2++;
+                    break;
                 }
-
-
             }
-            if (count == 2 && count2 == 2)
-            {
-                return true;
-            }
-            else
+            if (count != 2)
             {
                 return false;
             }
+            arrStr = newStr.Split(" ");
+            return char.IsUpper(arrStr[0][0]) && char.IsUpper(arrStr[1][0]);
         }
 
         //Hometask5: Integer value-nu integer massive yeni element kimi daxil eden metod
@@ -196,6 +212,90 @@ namespace HometasksCsOOPStringAndArrayClasses
             Array.Resize(ref numbers, numbers.Length + 1);
             numbers[numbers.Length - 1] = number;
             return numbers;
+        }
+
+
+
+        //Burada ise muellim terefinden yazilmis daha optimal heller yer almaqdadir:
+
+
+        static bool CheckFullName(string str)
+        {
+            MakeSentence(ref str);
+            var arr = str.Split(' ');
+
+            if (arr.Length == 2 && char.IsUpper(arr[0][0]) && char.IsUpper(arr[1][0]))
+                return true;
+
+            return false;
+        }
+        static void AddInt(ref int[] arr, int num)
+        {
+            Array.Resize(ref arr, arr.Length + 1);
+            arr[arr.Length - 1] = num;
+        }
+        static void MakeSentence(ref string str)
+        {
+            StringBuilder strBuilder = new StringBuilder();
+
+            str = str.Trim();
+            bool lastIsSpace = true;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] != ' ')
+                {
+                    strBuilder.Append(str[i]);
+                    lastIsSpace = false;
+                }
+                else if (!lastIsSpace)
+                {
+                    strBuilder.Append(str[i]);
+                    lastIsSpace = true;
+                }
+            }
+
+            str = strBuilder.ToString();
+        }
+
+        static bool CheckStr(string str)
+        {
+            bool hasDigit = false;
+            bool hasUpper = false;
+            bool hasLower = false;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (char.IsDigit(str[i]))
+                    hasDigit = true;
+                else if (char.IsUpper(str[i]))
+                    hasUpper = true;
+                else if (char.IsLower(str[i]))
+                    hasLower = true;
+
+                if (hasLower && hasUpper && hasDigit)
+                    return true;
+            }
+
+
+            return false;
+        }
+        static string FindFirstWord(string str)
+        {
+            str = str.Trim();
+
+            //var arr = str.Split(' ');
+            //if (arr.Length > 0)
+            //    return arr[0];
+
+
+            int firstSpaceIndex = str.IndexOf(' ');
+
+            if (firstSpaceIndex != -1)
+                return str.Substring(0, str.IndexOf(' '));
+
+            return str;
+
         }
 
     }

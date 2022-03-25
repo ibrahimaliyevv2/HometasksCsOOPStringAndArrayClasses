@@ -1,16 +1,14 @@
-﻿<Properties StartupConfiguration="{C861F647-75E4-4D39-B591-912EEF0E493A}|Default">
-  <MonoDevelop.Ide.ItemProperties.WorkerTask PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WorkerTask/Program.cs">
+﻿<Properties StartupConfiguration="{10ECF7E3-E617-44DE-9ED0-86814FE1709B}|Default">
+  <MonoDevelop.Ide.ItemProperties.HometasksCsOOPStringAndArrayClasses PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="WorkerTask/Program.cs" Line="12" Column="31" />
-      <File FileName="WorkerTask/Worker.cs" />
-      <File FileName="WorkerTask/Person.cs" />
+      <File FileName="Program.cs" Line="177" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WorkerTask" expanded="True">
-            <Node name="WorkerTask" expanded="True">
+          <Node name="HometasksCsOOPStringAndArrayClasses" expanded="True">
+            <Node name="HometasksCsOOPStringAndArrayClasses" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
